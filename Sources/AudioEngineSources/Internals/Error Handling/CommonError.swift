@@ -6,7 +6,7 @@ import Foundation
 // and hopefully provide more detail to developers when code fails
 // Please feel free to add any errors you need especially if they come up frequently
 
-enum CommonError: Error, LocalizedError {
+public enum CommonError: Error, LocalizedError {
     case audioKitNotRunning
     case couldNotOpenFile
     case deviceNotFound
