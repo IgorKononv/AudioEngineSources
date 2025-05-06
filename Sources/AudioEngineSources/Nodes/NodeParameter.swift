@@ -3,7 +3,7 @@
 import AVFoundation
 
 /// Definition or specification of a node parameter
-public struct NodeParameterDef {
+public struct NodeParameterDef: @unchecked Sendabl {
     /// Unique ID
     public var identifier: String
     /// Name
